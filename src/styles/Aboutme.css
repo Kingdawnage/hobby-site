@@ -1,0 +1,54 @@
+.Aboutme {
+    margin-left: 3.6%;
+    width: 500px;
+}
+
+@font-face {
+    font-family: "Fira Code";
+    src: url(../fonts/FiraCode-VariableFont_wght.ttf);
+}
+
+.flavour-text {
+    font-family: "Fira Code";
+    font-size: 28px;
+    font-weight: normal;
+    color: #019DF4;
+}
+
+.description {
+    font-family: "Fira Code";
+    font-size: 28px;
+    font-weight: normal;
+    color: white;
+}
+
+.sub-description {
+    font-family: "Fira Code";
+    font-size: 16px;
+    font-weight: normal;
+    color: #ABB2BF;
+}
+
+.contact-button {
+    box-sizing: border-box;
+    display: flex;
+    width: 148px;
+    height: 37px;
+    align-items: center;
+    justify-content: center;
+    background-color: #282C33;
+    border: 1px solid #019DF4;
+    position: absolute;
+}
+
+.contact-button:hover {
+    background-color: #019DF4;
+}
+
+.button-text {
+    font-family: 'Fira Code';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    color: white;
+}
