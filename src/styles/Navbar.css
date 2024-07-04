@@ -1,0 +1,48 @@
+.Navbar {
+    display: flex;
+}
+
+@font-face {
+    font-family: "Fira Code";
+    src: url(../fonts/FiraCode-VariableFont_wght.ttf);
+}
+
+.hash {
+    font-family: "Fira Code";
+    font-size: 16px;
+    font-weight: normal;
+    color: #019DF4;
+    vertical-align: middle;
+}
+
+.title {
+    font-family: "Fira Code";
+    font-size: 16px;
+    font-weight: normal;
+    color: white;
+    padding-left: 0px;
+    vertical-align: middle;
+}
+
+.Nav-1 {
+    align-content: center;
+    padding-right: 16px;
+}
+
+.Nav-2 {
+    align-content: center;
+    padding-left: 16px;
+    padding-right: 16px;
+}
+
+.Nav-3 {
+    align-content: center;
+    padding-left: 16px;
+    padding-right: 16px;
+}
+
+.Nav-4 {
+    align-content: center;
+    padding-left: 16px;
+    padding-right: 16px;
+}
