@@ -12,7 +12,7 @@ const Navbar = () => {
             <div className="Nav-3">
                 <span className="hash">#</span><span className="title">about-me</span>
             </div>
-            <div className="Nav-3">
+            <div className="Nav-4">
                 <span className="hash">#</span><span className="title">contacts</span>
             </div>
         </div>
