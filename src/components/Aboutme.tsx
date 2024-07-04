@@ -1,6 +1,6 @@
 import '../styles/Aboutme.css'
 
-const Aboutme = () => {
+const Aboutme:React.FC = () => {
     return ( 
         <div className="Aboutme">
             <p className='description'>I'm King. A <span className='flavour-text'>vehicle engineer</span> and a <span className='flavour-text'>game developer.</span></p>
