@@ -9,8 +9,13 @@ const App:React.FC = () => {
     <div className='App'>
       <div className="app-content">
         <div className="Container">
-          <Header/>
-          <Navbar/>
+          <Header
+              title='King'/>
+          <Navbar
+              tag1='home'
+              tag2='projects'
+              tag3='about-me'
+              tag4='contacts'/>
         </div>
         <div className="Container-1">
           <Aboutme/>

@@ -1,11 +1,15 @@
 import '../styles/Header.css'
 
-const Header:React.FC = () => {
+interface HeaderInfo {
+    title:string
+}
+
+const Header:React.FC<HeaderInfo> = ({title}) => {
     return ( 
     <div className="header">
         <h1>
             <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M12 0H8V4H4H0V8V12V16H4H8V12H12H16V8V4V0H12ZM4 12H8V8H12V4H8V8H4V12Z" fill="white"/></svg>
-            <span className='title'>King</span>
+            <span className='title'>{title}</span>
         </h1>
     </div> );
 }
