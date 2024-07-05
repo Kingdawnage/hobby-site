@@ -1,0 +1,55 @@
+.Projectheader {
+    display: flex;
+    margin-left: 3.6%;
+    margin-right: 3.6%;
+    border: 1px solid black;
+    vertical-align: middle;
+}
+
+@font-face {
+    font-family: "Fira Code";
+    src: url(../fonts/FiraCode-VariableFont_wght.ttf);
+}
+
+.project-hash {
+    font-family: "Fira Code";
+    font-size: 32px;
+    font-weight: normal;
+    color: #019DF4;
+    vertical-align: middle;
+}
+
+.project-title {
+    font-family: "Fira Code";
+    font-size: 32px;
+    font-weight: normal;
+    color: white;
+    vertical-align: middle;
+}
+
+.project-line {
+    height: 2px;
+    width: 300px;
+    margin-left: 16px;
+    background-color: #C778DD;
+    align-self: center;
+}
+
+.view-all-projects {
+    margin-left: auto;
+    display: flex;
+}
+
+.view-all-projects-text {
+    font-family: "Fira Code";
+    font-size: 16px;
+    font-weight: normal;
+    color: white;
+    margin-left: auto;
+    align-self: center;
+}
+
+.view-all-projects-arrow {
+    margin-left: 10px;
+    align-self: center;
+}

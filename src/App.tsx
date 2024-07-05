@@ -3,6 +3,7 @@ import Header from './components/Header'
 import Navbar from './components/Navbar'
 import Aboutme from './components/Aboutme'
 import Marquee from './components/Marquee';
+import Projectheader from './components/Projectheader';
 
 const App:React.FC = () => {
   return (
@@ -22,6 +23,9 @@ const App:React.FC = () => {
         </div>
         <div className="Container-2">
           <Marquee/>
+        </div>
+        <div className="Container-3">
+          <Projectheader/>
         </div>
       </div>
     </div>
