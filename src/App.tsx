@@ -4,6 +4,7 @@ import Navbar from './components/Navbar'
 import Aboutme from './components/Aboutme'
 import Marquee from './components/Marquee';
 import Projectheader from './components/Projectheader';
+import Exhibition from './components/Exhibition';
 
 const App:React.FC = () => {
   return (
@@ -26,6 +27,12 @@ const App:React.FC = () => {
         </div>
         <div className="Container-3">
           <Projectheader/>
+        </div>
+        <div className="Container-4">
+          <Exhibition/>
+        </div>
+        <div className="Container-5">
+          
         </div>
       </div>
     </div>
