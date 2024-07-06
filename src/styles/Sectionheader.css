@@ -1,4 +1,4 @@
-.Projectheader {
+.Sectionheader {
     display: flex;
     margin-left: 3.6%;
     margin-right: 3.6%;
@@ -28,9 +28,9 @@
 
 .project-line {
     height: 2px;
-    width: 300px;
+    width: 600px;
     margin-left: 16px;
-    background-color: #C778DD;
+    background-color: #019DF4;
     align-self: center;
 }
 

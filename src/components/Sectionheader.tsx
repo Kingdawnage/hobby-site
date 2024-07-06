@@ -1,9 +1,13 @@
-import "../styles/Projectheader.css"
+import "../styles/Sectionheader.css"
 
-const Projectheader:React.FC = () => {
+interface Projectheaderprops {
+    title: string
+}
+
+const Sectionheader:React.FC<Projectheaderprops> = ({ title }) => {
     return ( 
-        <div className="Projectheader">
-            <span className="project-hash">#</span><span className="project-title">Projects</span>
+        <div className="Sectionheader">
+            <span className="project-hash">#</span><span className="project-title">{ title }</span>
             <div className="project-line"></div>
             <div className="view-all-projects">
                 <span className="view-all-projects-text">View all</span>
@@ -15,4 +19,4 @@ const Projectheader:React.FC = () => {
      );
 }
  
-export default Projectheader;
+export default Sectionheader;

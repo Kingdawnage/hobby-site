@@ -3,8 +3,9 @@ import Header from './components/Header'
 import Navbar from './components/Navbar'
 import Aboutme from './components/Aboutme'
 import Marquee from './components/Marquee';
-import Projectheader from './components/Projectheader';
+import Sectionheader from './components/Sectionheader';
 import Exhibition from './components/Exhibition';
+// import Activity from './components/Activity';
 
 const App:React.FC = () => {
   return (
@@ -26,13 +27,21 @@ const App:React.FC = () => {
           <Marquee/>
         </div>
         <div className="Container-3">
-          <Projectheader/>
+          <Sectionheader
+            title='Projects'/>
         </div>
         <div className="Container-4">
           <Exhibition/>
         </div>
-        <div className="Container-5">
-          
+        {/* <div className="Container-5">
+          <Sectionheader
+            title='My Activity'/>
+        </div> */}
+        {/* <div className="Container-6">
+          <Activity/>
+        </div> */}
+        <div className="Container-7">
+
         </div>
       </div>
     </div>
