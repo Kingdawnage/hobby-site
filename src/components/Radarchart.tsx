@@ -18,7 +18,7 @@ const Radarchart: React.FC = () => {
       {
         label: "Percent",
         data: activity.map((data) => data.value),
-        backgroundColor: "rgba(54, 162, 235, 0.2)",
+        backgroundColor: "rgba(54, 162, 235, 0.5)",
         hoverBackgroundColor: "rgba(255, 162, 0, 0.7)",
         borderColor: "rgba(255 , 255, 255, 0.8)",
         borderWidth: 2,
