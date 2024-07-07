@@ -1,0 +1,15 @@
+.Radarchart {
+  position: relative;
+  width: 350;
+  /* min-width: fit-content; */
+  min-height: 350;
+  /* min-height: fit-content; */
+  margin: auto;
+  /* border: 1px solid #019df4; */
+  /* padding: 30px; */
+  /* padding-left: 20px; */
+  background-color: transparent;
+  border-radius: 20px;
+  align-content: center;
+  /* box-shadow: 0 0 16px rgba(0, 0, 0, 0.8); */
+}

@@ -5,7 +5,7 @@ import Aboutme from './components/Aboutme'
 import Marquee from './components/Marquee';
 import Sectionheader from './components/Sectionheader';
 import Exhibition from './components/Exhibition';
-// import Activity from './components/Activity';
+import Activity from './components/Activity';
 
 const App:React.FC = () => {
   return (
@@ -33,13 +33,13 @@ const App:React.FC = () => {
         <div className="Container-4">
           <Exhibition/>
         </div>
-        {/* <div className="Container-5">
+        <div className="Container-5">
           <Sectionheader
             title='My Activity'/>
-        </div> */}
-        {/* <div className="Container-6">
+        </div>
+        <div className="Container-6">
           <Activity/>
-        </div> */}
+        </div>
         <div className="Container-7">
 
         </div>

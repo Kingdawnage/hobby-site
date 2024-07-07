@@ -1,0 +1,11 @@
+.Piechart {
+  position: relative;
+  width: 310px;
+  height: 310px;
+  margin: auto;
+  /* border: 1px solid #019DF4; */
+  padding: 30px;
+  background-color: transparent;
+  border-radius: 20px;
+  /* box-shadow: 0 0 16px rgba(0, 0, 0, 0.8); */
+}

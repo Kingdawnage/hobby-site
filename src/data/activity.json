@@ -1,0 +1,22 @@
+[
+    {
+        "label": "Entertainment",
+        "value": 20
+    },
+    {
+        "label": "Gaming",
+        "value": 15
+    },
+    {
+        "label": "Coding",
+        "value": 35
+    },
+    {
+        "label": "Research",
+        "value": 10
+    },
+    {
+        "label": "Miscallenous",
+        "value": 20
+    }
+]
