@@ -1,0 +1,25 @@
+@font-face {
+  font-family: "Fira Code";
+  src: url(../fonts/FiraCode-VariableFont_wght.ttf);
+}
+
+.progress {
+  display: flex;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  height: 50px;
+  width: 100%;
+  background-color: #019df4;
+  align-items: center;
+  justify-content: center;
+}
+
+.progress-text {
+  font-family: "Fira Code";
+  font-weight: bold;
+  font-size: 16px;
+  color: white;
+  vertical-align: middle;
+  padding-left: 5px;
+}

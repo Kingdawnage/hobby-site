@@ -9,6 +9,7 @@ import {
 } from "./components/Sectionheader";
 import Exhibition from "./components/Exhibition";
 import Activity from "./components/Activity";
+import Progress from "./components/Progress";
 
 const App: React.FC = () => {
   return (
@@ -38,6 +39,7 @@ const App: React.FC = () => {
           <Activity />
         </div>
         <div className="Container-7"></div>
+        <Progress />
       </div>
     </div>
   );
